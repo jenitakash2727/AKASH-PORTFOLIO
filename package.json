@@ -2,7 +2,7 @@
   "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/jenitakash2727/AKASH-PORTFOLIO",
+  "homepage": "https://jenitakash2727.github.io/AKASH-PORTFOLIO",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
