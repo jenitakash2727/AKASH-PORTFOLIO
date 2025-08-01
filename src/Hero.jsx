@@ -1,11 +1,21 @@
 import React from 'react';
 import './Hero.css';
 
+
+import animeimage from './Images/animewebsite.jpg';
+import farmingtonapp from './Images/Farmington app.jpg'
+import dhcpsnooping from './Images/DHCP SNOOPING NETWORKING.jpg'
+
+import handgestsock from './Images/HAND GEST+SOCKET.jpg'
+
+import gamesteering from './Images/Hand Gesture-Controlled Game Interface.png'
+import NeuralNumber from './Images/Neural number.png'
+
 const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = `${process.env.PUBLIC_URL}/files/ThanishaS_MCA_B.pdf`;
-    link.download = 'ThanishaS_MCA_B.pdf';
+    link.href = `${process.env.PUBLIC_URL}/files/Jenit Akash_MCA_B (2).pdf`;
+    link.download = 'Jenit Akash_MCA_B (2).pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -17,7 +27,7 @@ const Hero = () => {
         {/* Navbar */}
         <nav className="navbar">
           <div className="logo">
-            THANISHA <span>S</span>
+            JENIT AKASH <span>A</span>
           </div>
           <ul className="nav-menu">
             {['about', 'skills', 'projects', 'internship', 'education', 'contact'].map((section) => (
@@ -30,10 +40,10 @@ const Hero = () => {
             ))}
           </ul>
           <div className="nav-icons">
-            <a href="https://www.linkedin.com/in/thanisha-s-88a1b0228/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/jenit-akash-385069262/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/Thanisha2727" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/jenitakash2727" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
 
@@ -47,11 +57,11 @@ const Hero = () => {
         {/* Hero Content */}
         <div className="hero-content">
           <h1 className="hero-title">
-            THANISHA <span className="highlight">S</span>
+            JENIT AKASH <span className="highlight">A</span>
           </h1>
           <p className="hero-subtitle">Data Science Enthusiast</p>
           <p className="hero-description">
-            Crafting innovative, scalable, and user-focused solutions with a passion for data science and full-stack development.
+        ’m Jenit Akash, a passionate and self-driven tech enthusiast pursuing my Master’s in Computer Applications (MCA) from Alliance University. My interests lie in Artificial Intelligence, Cybersecurity, Web and App Development, and Networking. I love solving real-world problems through code and have built projects involving voice AI, gesture-controlled systems, and cybersecurity simulations. I'm always eager to learn and contribute to impactful tech innovations.
           </p>
           <div className="hero-buttons">
             <button className="btn">Get In Touch</button>
@@ -66,10 +76,7 @@ const Hero = () => {
       <section className="about-me-container" id="about">
         <h2 className="section-title">About Me</h2>
         <p>
-          I am a dedicated Software Engineer with a passion for building intelligent, scalable web applications.
-          With expertise in React.js, MySQL, and data science, I create solutions that are both functional and user-friendly.
-          My interests lie in AI, data-driven systems, and emerging technologies, driving me to explore tools that enable smarter applications.
-          From e-commerce platforms to AI-powered apps, I focus on clean code and impactful solutions that solve real-world problems.
+        ’m Jenit Akash, a passionate and self-driven tech enthusiast pursuing my Master’s in Computer Applications (MCA) from Alliance University. My interests lie in Artificial Intelligence, Cybersecurity, Web and App Development, and Networking. I love solving real-world problems through code and have built projects involving voice AI, gesture-controlled systems, and cybersecurity simulations. I'm always eager to learn and contribute to impactful tech innovations.
         </p>
       </section>
 
@@ -97,9 +104,12 @@ const Hero = () => {
             <h3>Skills</h3>
             <div className="skills-grid">
               <div className="skill">APP DEVELOPMENT</div>
+               <div className="skill">WEBSITE DEVELOPMENT</div>
               <div className="skill">DATA SCIENCE</div>
 <div className="skill">Artificial intelligence</div>
 <div className="skill">Networking</div>
+<div className="skill">CYBER SECURITY</div>
+
 
             </div>
           </div>
@@ -111,7 +121,9 @@ const Hero = () => {
               <div className="skill">PYTHON</div>
               <div className="skill">JAVA</div>
 <div className="skill">JAVASCRIPT</div>
-<div className="skill"></div>
+<div className="skill">C#</div>
+<div className="skill">C++</div>
+<div className="skill">C</div>
 
             </div>
           </div>
@@ -128,6 +140,8 @@ const Hero = () => {
               <div className="skill">Jupyter Notebook</div>
               <div className="skill">Google Colab</div>
               <div className="skill">VS Code</div>
+               <div className="skill">PYCHARM</div>
+                  <div className="skill">ANDROID STUDIO</div>
           
             </div>
 
@@ -154,29 +168,31 @@ const Hero = () => {
         <h2 className="section-title">Projects</h2>
         <div className="projects-container">
           <div className="project-card featured">
-            <img
-              src="https://i.ytimg.com/vi/CITzpWbTSE8/maxresdefault.jpg"
-              alt="Dog Breed Recognition"
-            />
+          <img
+  src={animeimage}
+  alt="Anime streaming Website"
+/>
+
 
 
 
             <div className="card-content">
               <span className="tag">Featured</span>
-              <h3>Dog Breed Recognition</h3>
+              <h3></h3>
               <p>
-                A web app using deep learning to identify dog breeds from images, providing breed details, stats, and adoption links.
-                Includes name suggestions based on selected gender.
+          AnimeVerse is a user-friendly anime streaming-style website that allows users to browse, search, and explore information about their favorite anime. It uses the Jikan API to fetch real-time anime data like trending shows, upcoming anime, anime details, and more.
+
+
               </p>
               <div className="tags">
-                <span className="tag">TensorFlow</span>
-                <span className="tag">Scrapy</span>
-                <span className="tag">NumPy</span>
-                <span className="tag">Streamlit</span>
+                <span className="tag">HTML</span>
+                <span className="tag">CSS</span>
+                <span className="tag">JAVASCRIPT</span>
+                <span className="tag">REACT JS</span>
               </div>
               <div className="buttons">
                 <a
-                  href="https://github.com/Thanishaa27/dog-breed-identifier/blob/main/mainapp.py"
+                  href="https://github.com/jenitakash2727/Anime-Streaming-Website-Using-React-js-HTML-CSS-JAVASCRIPT-"
                   className="btn-card"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -188,23 +204,25 @@ const Hero = () => {
           </div>
           <div className="project-card">
             <img
-              src="https://tse3.mm.bing.net/th?id=OIP.p1qnyq5K24cIVkqfmN8T7wHaE7&pid=Api&P=0&h=180"
-              alt="Natural Language Processing"
+            src={farmingtonapp}
+              alt="Farmington app"
             />
             <div className="card-content">
-              <h3>Natural Language Processing</h3>
+              <h3>FARMINGTON APP</h3>
               <p>
-                An NLP-based project enabling chatbots to understand and respond to human language, bridging communication gaps.
+                To build a smart farming app that connects farmers and buyers directly by allowing farmers to upload and sell crops or vegetables (e.g., tomato, onions, etc.) online. The app simplifies agricultural marketing and supports local crop-based e-commerce.
+
+
               </p>
               <div className="tags">
-                <span className="tag">TensorFlow</span>
-                <span className="tag">NLTK</span>
-                <span className="tag">Tokenizer</span>
-                <span className="tag">LSTM</span>
+                <span className="tag">ANDROID STUDIO</span>
+                <span className="tag">JAVA</span>
+                <span className="tag">FIREBASE</span>
+          
               </div>
               <div className="buttons">
                 <a
-                  href="https://github.com/Thanisha2727/Natural-language-processing"
+                  href="https://github.com/jenitakash2727/Farmington-app-using-Android-Studio"
                   className="btn-card"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -216,25 +234,22 @@ const Hero = () => {
           </div>
           <div className="project-card featured">
             <img
-              src="https://tse2.mm.bing.net/th?id=OIP.Kw5zI06_Mhnr75_uOyR1cgHaD5&pid=Api&P=0&h=180"
+              src={dhcpsnooping}
               alt="KM Malligai Store"
             />
             <div className="card-content">
               <span className="tag">Featured</span>
-              <h3>ARP SPOOFING</h3>
+              <h3>DHCP SNOOPING</h3>
               <p>
-               The goal of this project is to demonstrate a Man-in-the-Middle (MITM) attack using ARP Spoofing. This shows how a hacker can intercept communication between a victim and a router by manipulating the ARP
+              The DHCP Snooping project is a security mechanism implemented in network switches to prevent unauthorized (rogue) DHCP servers from distributing invalid IP configurations to clients. This project involves creating a Python-based simulation using Scapy, where network traffic is monitored to identify and filter out malicious DHCP responses. The switch (or simulated switch in the project) maintains a database of trusted ports where valid DHCP servers are located. Any DHCP offer or acknowledgment received on untrusted ports is dropped to prevent IP spoofing or man-in-the-middle attacks. This helps ensure only legitimate devices assign IP addresses, protecting the network from attacks such as DHCP spoofing and IP conflicts. Through this project, we demonstrate how network administrators can enforce DHCP security policies and maintain network integrity.
               </p>
               <div className="tags">
-                <span className="tag">Librosa</span>
-                <span className="tag">SoundFile</span>
-                <span className="tag">SciPy</span>
-                <span className="tag">PyAudio</span>
-                <span className="tag">Wave</span>
+                <span className="tag">SCAPY</span>
+               
               </div>
               <div className="buttons">
                 <a
-                  href="https://github.com/Thanisha2727/ARP-SPOOFING"
+                  href="https://github.com/jenitakash2727/DHCP-SNOOPING-USING-SCAPY-NETWORKING"
                   className="btn-card"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -252,21 +267,24 @@ const Hero = () => {
           </div>
             <div className="project-card">
             <img
-              src="https://images.shiksha.com/mediadata/shikshaOnline/mailers/2021/naukri-learning/oct/27oct/What-is-Deep-Learning-and-Neural-Networks.jpg"
-              alt="Natural Language Processing"
+              src={handgestsock}
+              alt="hand gest sock"
             />
           <div className="card-content">
-              <h3>NEURA NETWORK SCRATCH</h3>
+              <h3>Hand Gesture Based Text Transfer Over Network-AI + Networking</h3>
               <p>
-              The goal of this project is to implement a basic neural network from scratch without using any machine learning frameworks like TensorFlow or PyTorch. Instead, we use only NumPy for matrix operations to understand the fundamentals of how neural networks work internally
+              The goal of this project is to create a system that uses hand gestures (recognized via computer vision) to send custom text messages or signals over a network (LAN/Wi-Fi). The system combines AI (gesture recognition) and networking (socket programming) to transfer data without using a keyboard or mouse.
               </p>
               <div className="tags">
-                <span className="tag">NUMPY</span>
+                <span className="tag">OPENCV</span>
+                   <span className="tag">MEDIAPIPE</span>
+                    <span className="tag">SOCKET</span>
+                     <span className="tag">PYAUTOGUI</span>
              
               </div>
               <div className="buttons">
                 <a
-                  href="https://github.com/Thanisha2727/Neural-Network"
+                  href="https://github.com/jenitakash2727/Hand-Gesture-Based-Text-Transfer-Over-Network-AI-NETWORKING"
                   className="btn-card"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -279,14 +297,25 @@ const Hero = () => {
 
      <div className="project-card featured">
             <img
-              src="https://tse1.mm.bing.net/th?id=OIP.fMBLvkdLbg0MEfv7KbJZjQHaCl&pid=Api&P=0&h=180"
+              src={NeuralNumber}
               alt="KM Malligai Store"
             />
             <div className="card-content">
               <span className="tag">Featured</span>
-              <h3>HAND GESTURE MEDIA PLAYER CONTROL</h3>
+              <h3>CNN-NEURAL NUMBER RECOGNITION</h3>
               <p>
-               To control video playback using finger gestures detected by a webcam. Each finger count performs a different function like play, pause, next, or preview of the video.
+              To develop a Convolutional Neural Network (CNN) model that can recognize handwritten digits (0–4) from image data, typically using datasets like MNIST.
+              CNN is a type of deep learning neural network used for image classification. It automatically learns features from images using:
+
+Convolutional layers: Detect features like edges, curves, and patterns.
+
+Pooling layers: Reduce image size while keeping important info.
+
+Fully connected layers: Make final predictions based on learned features
+
+The model learns to classify digits from images.
+
+Accuracy: Generally above 98% with this CNN architecture.
               </p>
               <div className="tags">
                 <span className="tag">MEDIAPIPE</span>
@@ -296,7 +325,7 @@ const Hero = () => {
               </div>
               <div className="buttons">
                 <a
-                  href="https://github.com/Thanisha2727/Neural-Network"
+                  href="https://github.com/jenitakash2727/CNN-NEURAL-NUMBER-RECOGNITION-"
                   className="btn-card"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -318,20 +347,23 @@ const Hero = () => {
 
              <div className="project-card">
             <img
-              src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/84/8a/b4/848ab476-4b69-1c4e-50da-71d96114dcdc/AppIcon-85-220-4-2x.png/1200x630wa.png"
+              src={gamesteering}
               alt="Natural Language Processing"
             />
           <div className="card-content">
-              <h3>VOICE CHANGER USING LIBROSA</h3>
+              <h3>KIvymd-app-using-game-steering-wheel-control-and-hand-gestures</h3>
               <p>
-             🎙️ This project records your voice using PyAudio and saves it as a WAV file.
-🐱 Then it modifies the recording to sound like a cat by increasing pitch and speed using Librosa.
-🔊 Finally, it applies a bandpass filter to clean the sound and saves the "catified" audio using SoundFile</p>
+I created a Android app with hand gesture 
+controls for a media player and a car game 
+steering wheel control using fake cardboard 
+KIvymd app using game steering wheel control 
+and hand gestures  
+Gesture-Controlled Copy-Paste over-AI+ Net</p>
               <div className="tags">
                 
-          <span className="tag">LIBROSA</span>
-          <span className="tag">SOUND FILE</span>
-          <span className="tag">SCIPY</span>
+          <span className="tag">OPENCV</span>
+          <span className="tag">MEDIAPIPE</span>
+          <span className="tag">PYAUTOGUI</span>
           <span className="tag">PYAUDIO</span>
           <span className="tag">WAVE</span>
              
@@ -362,20 +394,20 @@ const Hero = () => {
         <p className="section-subtitle">Practical experience and hands-on learning through internships</p>
         <div className="internship-list">
           <div className="internship-card">
-            <div className="internship-date">May 03, 2024</div>
-            <h3>Frontend Developer</h3>
+            <div className="internship-date">SEPTEMBER, 2023</div>
+            <h3>MICROSOFT  AZURE CLOUD TECHNOLOGIES</h3>
             <div className="company-name">
               🏢{' '}
               <h3>
-                <a href="https://rooman.net" className="blue-link" target="_blank" rel="noopener noreferrer">
-                  Rooman Technologies
+                <a href="https://www.zaubacorp.com/HYSTERESIS-PRIVATE-LIMITED-U80902PN2020PTC192467#google_vignette" className="blue-link" target="_blank" rel="noopener noreferrer">
+                  HYSTERESIS PRIVATE LIMITED
                 </a>
               </h3>
             </div>
             <ul className="internship-points">
-              <li> Built responsive web pages using HTML and CSS.</li>
-              <li> Designed clean layouts with Flexbox and Grid.</li>
-              <li>Improved page styling for better user experience.</li>
+              <li> Developed and deployed scalable web applications using Microsoft Azure services like App Service and Azure SQL.</li>
+              <li> Implemented cloud storage solutions with Azure Blob Storage to manage and access large datasets securely.</li>
+              <li>Enhanced application performance and availability using Azure Functions and Load Balancer.</li>
             </ul>
           </div>
         </div>
@@ -396,7 +428,7 @@ const Hero = () => {
               <span><i className="fa fa-calendar"></i> SEP 2024 - MAY 2026</span>
               <span><i className="fa fa-map-marker"></i> Bengaluru, India</span>
             </p>
-            <p className="cgpa">CGPA: 9.1</p>
+            <p className="cgpa">CGPA: 8.1</p>
           </div>
         </div>
       </section>
@@ -411,13 +443,13 @@ const Hero = () => {
             <div className="info-box">
               <span className="icon"><i className="fa fa-envelope"></i></span>
               <div className="info">
-                <strong>Email:</strong> <a href="mailto:sthanisha84@gmail.com">sthanisha84@gmail.com</a>
+                <strong>Email:</strong> <a href="mailto:jenitakash@gmail.com">jenitakash@gmail.com</a>
               </div>
             </div>
             <div className="info-box">
               <span className="icon"><i className="fa fa-phone"></i></span>
               <div className="info">
-                <strong>Phone:</strong> +91 8105091572
+                <strong>Phone:</strong> +91 8072026020
               </div>
             </div>
             <div className="info-box">
@@ -428,7 +460,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="contact-form">
-  <form action="https://formsubmit.co/sthanisha84@gmail.com" method="POST">
+  <form action="https://formsubmit.co/jenitakash@gmail.com" method="POST">
     <label htmlFor="name">Name</label>
     <input type="text" id="name" name="name" placeholder="Your Name" required />
 
