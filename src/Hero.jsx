@@ -61,7 +61,7 @@ const Hero = () => {
           </h1>
           <p className="hero-subtitle">Data Science Enthusiast</p>
           <p className="hero-description">
-        ’m Jenit Akash, a passionate and self-driven tech enthusiast pursuing my Master’s in Computer Applications (MCA) from Alliance University. My interests lie in Artificial Intelligence, Cybersecurity, Web and App Development, and Networking. I love solving real-world problems through code and have built projects involving voice AI, gesture-controlled systems, and cybersecurity simulations. I'm always eager to learn and contribute to impactful tech innovations.
+        I’am Jenit Akash, a passionate and self-driven tech enthusiast pursuing my Master’s in Computer Applications (MCA) from Alliance University. My interests lie in Artificial Intelligence, Cybersecurity, Web and App Development, and Networking. I love solving real-world problems through code and have built projects involving voice AI, gesture-controlled systems, and cybersecurity simulations. I'm always eager to learn and contribute to impactful tech innovations.
           </p>
           <div className="hero-buttons">
             <button className="btn">Get In Touch</button>
@@ -76,7 +76,7 @@ const Hero = () => {
       <section className="about-me-container" id="about">
         <h2 className="section-title">About Me</h2>
         <p>
-        ’m Jenit Akash, a passionate and self-driven tech enthusiast pursuing my Master’s in Computer Applications (MCA) from Alliance University. My interests lie in Artificial Intelligence, Cybersecurity, Web and App Development, and Networking. I love solving real-world problems through code and have built projects involving voice AI, gesture-controlled systems, and cybersecurity simulations. I'm always eager to learn and contribute to impactful tech innovations.
+        I’am Jenit Akash, a passionate and self-driven tech enthusiast pursuing my Master’s in Computer Applications (MCA) from Alliance University. My interests lie in Artificial Intelligence, Cybersecurity, Web and App Development, and Networking. I love solving real-world problems through code and have built projects involving voice AI, gesture-controlled systems, and cybersecurity simulations. I'm always eager to learn and contribute to impactful tech innovations.
         </p>
       </section>
 
