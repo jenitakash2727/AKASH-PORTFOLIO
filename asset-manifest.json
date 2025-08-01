@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AKASH-PORTFOLIO/static/css/main.d257a9fa.css",
-    "main.js": "/AKASH-PORTFOLIO/static/js/main.dbcc7504.js",
+    "main.js": "/AKASH-PORTFOLIO/static/js/main.d5f1bf6d.js",
     "static/js/453.ad6eb26e.chunk.js": "/AKASH-PORTFOLIO/static/js/453.ad6eb26e.chunk.js",
     "static/media/Hand Gesture-Controlled Game Interface.png": "/AKASH-PORTFOLIO/static/media/Hand Gesture-Controlled Game Interface.347cbc25001f407d2d69.png",
     "static/media/Neural number.png": "/AKASH-PORTFOLIO/static/media/Neural number.e1b322e8c0f69644b8e8.png",
@@ -11,11 +11,11 @@
     "static/media/Farmington app.jpg": "/AKASH-PORTFOLIO/static/media/Farmington app.c6946d5242dc0d4f6b0c.jpg",
     "index.html": "/AKASH-PORTFOLIO/index.html",
     "main.d257a9fa.css.map": "/AKASH-PORTFOLIO/static/css/main.d257a9fa.css.map",
-    "main.dbcc7504.js.map": "/AKASH-PORTFOLIO/static/js/main.dbcc7504.js.map",
+    "main.d5f1bf6d.js.map": "/AKASH-PORTFOLIO/static/js/main.d5f1bf6d.js.map",
     "453.ad6eb26e.chunk.js.map": "/AKASH-PORTFOLIO/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d257a9fa.css",
-    "static/js/main.dbcc7504.js"
+    "static/js/main.d5f1bf6d.js"
   ]
 }
